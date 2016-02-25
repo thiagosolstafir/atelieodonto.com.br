@@ -19,7 +19,22 @@
       </div>
     </div>
   </div>
+</div>
+<div id="destaque">
+  <div id="area_slider_intro">
+    <div id="slider_intro" class="slideshow"
+    data-cycle-swipe=true
+    data-cycle-pager="#pager_slider div"
+    data-cycle-slides="> li"
+    data-cycle-timeout=0
+    >
+
+    <li >
+      <div style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></div>
+    </li>
+
+  </div>
 
 </div>
-
+</div>
 <?php include "template-site/footer.php"; ?>
