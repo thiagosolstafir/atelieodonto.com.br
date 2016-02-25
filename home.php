@@ -30,7 +30,7 @@
     >
 
     <li >
-      <div style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></div>
+      <div style="background:url('http://dummyimage.com/1920x600') no-repeat center center;"></div>
     </li>
 
   </div>
