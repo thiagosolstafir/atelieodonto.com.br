@@ -157,6 +157,33 @@ body {
   color: #48887a;
   font-size: 29px;
   font-family: 'Ubuntu Condensed', sans-serif;
+  -webkit-text-stroke-color: #333;
+  -webkit-text-stroke: 0.2px;
+}
+.box_home .equipe .desc_equipe .desc{
+  width: 70%;
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 15px;
+  line-height: 20px;
+  color: #403f41;
+}
+.banner-rodape{
+  width:100%;
+  float:left;
+  margin:0;
+  margin-top: -4px;
+  position: relative;
+  z-index: -1;
+}
+#rodape{
+  width:100%;
+  float:left;
+  margin:0;
+  height: 340px;
+  margin-top: 20px;
+  background: #5a9c74;
 }
 /************************************************************
 slide home

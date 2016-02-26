@@ -88,19 +88,28 @@
 
             <div class="equipe">
               <div class="mulher">
-                <img src="includes/imgs/mulher.jpg" alt="" class-"img-responsive" />
+                <img src="includes/imgs/mulher.png" alt="" class-"img-responsive" />
               </div>
               <div class="desc_equipe">
                 <div class="titulo">
                   EQUIPE DE PROFISSIONAIS
                 </div>
+                <div class="desc">
+                  Saiba mais sobre nossa clinica e sua equipe de profissionais qualificados em diversas especialidades para melhor atendê-lo.
+                </div>
               </div>
+            </div>
+            <div class="banner-rodape">
+              <img src="includes/imgs/banner-home.jpg" class="img-responsive" alt="" />
             </div>
             </div>
           </div>
         </div>
     </div>
 </div>
+<div id="rodape">
+  
 </div>
+
 
 <?php include "template-site/footer.php"; ?>
