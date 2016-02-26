@@ -89,5 +89,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-autoprefixer');
 
-  grunt.registerTask( 'default', [ 'autoprefixer', 'cssnano', 'uglify', 'watch', 'postcss' ] );
+  grunt.registerTask( 'default', [ 'cssmin', 'uglify', 'watch', 'postcss' ] );
 };
