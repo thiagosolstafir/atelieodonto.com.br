@@ -135,8 +135,11 @@ body {
 }
 .box_home .equipe {
   width: 100%;
+  height: 361px;
   float: left;
   margin: 0;
+  background: url('../../includes/imgs/mulher.png') no-repeat center left;
+  background-position: 75px;
 }
 .box_home .equipe .mulher {
   width: 330px;
@@ -146,10 +149,11 @@ body {
   margin-left: 77px;
 }
 .box_home .equipe .desc_equipe {
-  width: 59%;
-  margin-left: 20px;
-  margin-top: 110px;
+  width: 40%;
+  margin-left: 0;
+  margin-top: 101px;
   float: right;
+  margin-right: 232px;
 }
 .box_home .equipe .desc_equipe .titulo {
   color: #48887a;
@@ -159,7 +163,7 @@ body {
   -webkit-text-stroke: 0.2px;
 }
 .box_home .equipe .desc_equipe .desc {
-  width: 70%;
+  width: 100%;
   float: left;
   font-size: 16px;
   font-weight: 300;

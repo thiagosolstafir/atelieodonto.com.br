@@ -87,9 +87,6 @@
 
 
           <div class="equipe">
-            <div class="mulher">
-              <img src="includes/imgs/mulher.png" alt="" class-"img-responsive" />
-            </div>
             <div class="desc_equipe">
               <div class="titulo">
                 EQUIPE DE PROFISSIONAIS
