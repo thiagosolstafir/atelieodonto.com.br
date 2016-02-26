@@ -132,15 +132,20 @@
 
           <form action="" method="post">
             <div class="input-email">
-              <input type="email" name="name" value="">
+              <input type="email" name="name" value="" required="true">
               <input type="image" src="includes/imgs/btn-enviar.png" name="name" value="">
             </div>
           </form>
 
 
           <div class="rede-social">
-            <a href="#" class="facebook"></a>
-            <a href="#" class="twitter"></a>
+            <span>
+              <a href="#" class="facebook"></a>
+              <a href="#" class="twitter"></a>
+              <a href="#" class="plus"></a>
+              <a href="#" class="youtube"></a>
+              <a href="#" class="linkedin"></a>
+            </span>
           </div>
 
         </div>

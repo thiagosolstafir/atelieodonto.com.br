@@ -55,7 +55,7 @@ body {
 #topo .menu {
   width: 73%;
   float: left;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 #topo .menu ul {
   width: 100%;
@@ -259,56 +259,84 @@ body {
   line-height: 14px;
   color: #fff;
 }
-#rodape .cont .input-email{
-  width:100%;
-  float:left;
-  margin:0;
+#rodape .cont .input-email {
+  width: 100%;
+  float: left;
+  margin: 0;
   margin-top: 25px;
   position: relative;
 }
-#rodape .cont .input-email input[type="email"]{
-  width:100%;
-  float:left;
-  margin:0;
+#rodape .cont .input-email input[type="email"] {
+  width: 100%;
+  float: left;
+  margin: 0;
   background: #478174;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
-  border:none;
+  border: none;
   padding: 15px;
   color: #fff;
   font-size: 13px;
   padding-right: 105px;
 }
-#rodape .cont .input-email input[type="image"]{
+#rodape .cont .input-email input[type="image"] {
   position: absolute;
   right: 0;
 }
-#rodape .cont .input-email input[type="image"]:hover{
+#rodape .cont .input-email input[type="image"]:hover {
   opacity: .5;
 }
-#rodape .cont .rede-social{
-  width:100%;
+#rodape .cont .rede-social {
+  width: 100%;
   float: left;
   margin-top: 90px;
   padding-bottom: 20px;
 }
-#rodape .cont .rede-social a:hover{
+#rodape .cont .rede-social span {
+  width: auto;
+  float: none;
+  display: table;
+  margin: 0 auto;
+}
+#rodape .cont .rede-social a{
+  margin-right: 5px;
+}
+#rodape .cont .rede-social a:last-child{
+  margin: 0;
+}
+#rodape .cont .rede-social a:hover {
   opacity: .9;
 }
-#rodape .cont .rede-social a.facebook{
-  display: table;
+#rodape .cont .rede-social a.facebook {
+  float: left;
   background: url('../../includes/imgs/rede-social.png') no-repeat 0 0;
-	width: 47px;
-	height: 47px;
-  margin: 0 auto;
+  width: 47px;
+  height: 47px;
 }
-#rodape .cont .rede-social a.twitter{
-  display: table;
+#rodape .cont .rede-social a.twitter {
+  float: left;
   background: url('../../includes/imgs/rede-social.png') no-repeat -55px 0;
-	width: 47px;
-	height: 47px;
-  margin: 0 auto;
+  width: 47px;
+  height: 47px;
+}
+#rodape .cont .rede-social a.plus{
+  float:left;
+  background: url('../../includes/imgs/rede-social.png') no-repeat -110px 0;
+  width: 47px;
+  height: 47px;
+}
+#rodape .cont .rede-social a.youtube{
+  float:left;
+  background: url('../../includes/imgs/rede-social.png') no-repeat -165px 0;
+  width: 47px;
+  height: 47px;
+}
+#rodape .cont .rede-social a.linkedin{
+  float:left;
+  background: url('../../includes/imgs/rede-social.png') no-repeat -220px 0;
+  width: 47px;
+  height: 47px;
 }
 /************************************************************
 slide home
