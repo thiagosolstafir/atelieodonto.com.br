@@ -225,12 +225,17 @@ body {
 #rodape .rodape_int .informacoes li.tel{
   background: url('../../includes/imgs/infos.png') no-repeat 0 -27px;
   width: 100%;
-  height: 13px;
+  height: 15px;
 }
 #rodape .rodape_int .informacoes li.email{
   background: url('../../includes/imgs/infos.png') no-repeat 0 -57px;
   width: 100%;
-  height: 11px;
+  height: 15px;
+}
+#rodape .rodape_int .informacoes li.site{
+  background: url('../../includes/imgs/infos.png') no-repeat 0 -81px;
+  width: 100%;
+  height: 15px;
 }
 /************************************************************
 slide home

@@ -117,6 +117,7 @@
           <li class="end">Rua Carlos Benack, 592 - Saguaçu - Joinville/SC</li>
           <li class="tel">(47) 3472.2717</li>
           <li class="email">contato@atelieodonto.com.br</li>
+          <li class="site">www.atelieodonto.com.br</li>
         </div>
 
       </div>

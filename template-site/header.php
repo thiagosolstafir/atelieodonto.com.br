@@ -13,10 +13,10 @@
 
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/bootstrap.css">
 
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/helper.min.css?<?php echo time(); ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/style.min.css?<?php echo time(); ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/menu-mobile.min.css?<?php echo time(); ?>">
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/mobile.min.css?<?php echo time(); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/helper_dev.css?<?php echo time(); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/style_dev.css?<?php echo time(); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/menu-mobile_dev.css?<?php echo time(); ?>">
+  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/mobile_dev.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/nanoscroller.css?<?php echo time(); ?>">
 <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,300,400italic,500,500italic,700italic,700' rel='stylesheet' type='text/css'>
 
@@ -35,7 +35,7 @@
     <script src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js'></script>
   <![endif]-->
 
-  <script src="<?php echo $mainFolder; ?>/includes/js/scripts.min.js?<?php echo time(); ?>" type="text/javascript"></script>
+  <script src="<?php echo $mainFolder; ?>/includes/js/scripts_dev.js?<?php echo time(); ?>" type="text/javascript"></script>
 
 
   <script> $.fn.cycle.defaults.autoSelector = '.slideshow'; </script>
