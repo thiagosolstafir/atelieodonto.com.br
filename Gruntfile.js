@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       }
     },
 
-    cssnano: {
+    /*cssnano: {
       options: {
         sourcemap: false
       },
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         src: 'includes/css/*.css',
         dest: 'includes/css'
       }
-    },
+    },*/
   });
 
   // carrega plugins
@@ -85,9 +85,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
-  grunt.loadNpmTasks('grunt-cssnano');
-  grunt.loadNpmTasks('grunt-postcss');
-  grunt.loadNpmTasks('grunt-autoprefixer');
+  //grunt.loadNpmTasks('grunt-cssnano');
+  //grunt.loadNpmTasks('grunt-postcss');
+  //grunt.loadNpmTasks('grunt-autoprefixer');
 
-  grunt.registerTask( 'default', [ 'cssmin', 'uglify', 'watch', 'postcss' ] );
+  grunt.registerTask( 'default', [ 'cssmin', 'uglify', 'watch' ] );
 };

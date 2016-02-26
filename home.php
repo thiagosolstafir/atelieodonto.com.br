@@ -30,9 +30,18 @@
     >
 
     <li>
-      <div class="titulo_slider">
-        A clínica
+      <div class="box_conteudo_slider">
+        <div class="titulo_slider">
+          A clínica
+        </div>
+        <div class="subtitulo_slider">
+          Oferecemos reabilitação oral em todos os níveis de complexidade.
+
+          Uma equipe de dentistas pós-graduados e especializados com
+          equipamentos de última geração.
+        </div>
       </div>
+
       <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
     </li>
 
@@ -47,4 +56,51 @@
 
 </div>
 </div>
+
+<div id="conteudo">
+<div class="content_responsive">
+    <div class="estrutura_site">
+        <div class="conteudo">
+          <div class="box_home">
+            <div class="box_home_int">
+              <div class="titulo">
+                A CLÍNICA
+              </div>
+              <div class="img">
+                  <a href="#"><img src="includes/imgs/a-clinica.jpg" class="img-responsive" alt="" /></a>
+              </div>
+              <div class="desc">
+                Tecnologia de ponta, os melhores equipamentos e as técnicas mais avançadas de tratamento para atingir alta qualidade de resultados.
+              </div>
+            </div>
+            <div class="box_home_int second">
+              <div class="titulo">
+                AGENDA
+              </div>
+              <div class="img">
+                  <a href="#"><img src="includes/imgs/agenda.jpg" class="img-responsive" alt="" /></a>
+              </div>
+              <div class="desc">
+                Mais praticidade para você! Consulte dia e horários que combinam com a sua disponibilidade.
+              </div>
+            </div>
+
+
+            <div class="equipe">
+              <div class="mulher">
+                <img src="includes/imgs/mulher.jpg" alt="" class-"img-responsive" />
+              </div>
+              <div class="desc_equipe">
+                <div class="titulo">
+                  EQUIPE DE PROFISSIONAIS
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+</div>
+
 <?php include "template-site/footer.php"; ?>

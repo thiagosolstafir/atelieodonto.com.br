@@ -84,6 +84,80 @@ body {
   z-index: -1;
 }
 
+#conteudo, .conteudo{
+  width:100%;
+  float:left;
+  margin:0;
+  height: auto
+}
+.conteudo .box_home{
+  width:100%;
+  float:left;
+  margin:0;
+  height: auto;
+  margin-top:20px;
+}
+.conteudo .box_home .box_home_int{
+  width: calc((100% / 2) - 22px);
+  float: left;
+  height: 400px;
+  margin-right: 44px;
+}
+.conteudo .box_home .box_home_int.second{
+  margin-right: 0;
+}
+.box_home .box_home_int .titulo{
+  color: #48887a;
+  font-size: 24px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.box_home .box_home_int .img{
+  width:100%;
+  float:left;
+  margin:0;
+  margin-top: 5px;
+}
+.box_home .box_home_int .img img:hover{
+  opacity: .7;
+}
+.box_home .box_home_int .desc{
+  width:100%;
+  float:left;
+  margin:0;
+  text-align: center;
+  font-size: 14px;
+  color: #403f41;
+  font-weight: 300;
+  padding-left: 25px;
+  padding-right: 25px;
+  line-height: 19px;
+  margin-top: 10px;
+  -webkit-text-stroke-color: #333;
+  -webkit-text-stroke: 0.2px;
+}
+.box_home .equipe{
+  width:100%;
+  float:left;
+  margin:0;
+}
+.box_home .equipe .mulher{
+  width:330px;
+  height: 361px;
+  float:left;
+  margin:0;
+  margin-left: 77px;
+}
+.box_home .equipe .desc_equipe{
+  width: 59%;
+  margin-left:20px;
+  margin-top: 110px;
+  float: right;
+}
+.box_home .equipe .desc_equipe .titulo{
+  color: #48887a;
+  font-size: 29px;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
 /************************************************************
 slide home
 ************************************************************/
@@ -98,7 +172,7 @@ slide home
   -ms-background-size: cover;
   -o-background-size: cover;
 }
-#area_slider_intro li .titulo_slider{
+#area_slider_intro li .box_conteudo_slider{
   width: 1119px;
   left: 0;
   position: absolute;
@@ -107,9 +181,24 @@ slide home
   margin-left: auto;
   margin-right: auto;
   margin: 0 auto;
+}
+#area_slider_intro li .titulo_slider{
+  width: 600px;
+  float: left;
   font-size: 50px;
   color: #fff;
-
+  opacity: .7;
+}
+#area_slider_intro li .subtitulo_slider{
+  width: 600px;
+  float:left;
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 20px;
+  white-space: pre-line;
+  opacity: .7;
+  clear: both;
 }
 #area_slider_intro {
   width: 100%;
