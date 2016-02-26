@@ -237,6 +237,12 @@ body {
   width: 100%;
   height: 15px;
 }
+#rodape .rodape_int.second .cont{
+  width: 68%;
+  float: right;
+  height: auto;
+  background: red;
+}
 /************************************************************
 slide home
 ************************************************************/
