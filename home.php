@@ -123,6 +123,20 @@
       </div>
       <div class="rodape_int second">
           <div class="cont">
+            <div class="titulo">
+              RECEBA NOSSAS NOTÍCIAS
+            </div>
+            <div class="desc">
+              Digite seu e-mail e vamos enviar-lhe um cupom com 10% de desconto em sua próxima visita.
+            </div>
+
+            <form action="" method="post">
+              <div class="input-email">
+                <input type="email" name="name" value="">
+                <input type="image" src="includes/imgs/btn-enviar.png" name="name" value="">
+
+              </div>
+            </form>
 
           </div>
       </div>

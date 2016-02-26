@@ -189,10 +189,10 @@ body {
   margin: 0;
   padding-top: 40px;
 }
-#rodape .rodape_int.first{
+#rodape .rodape_int.first {
   padding-left: 18px;
 }
-#rodape .rodape_int .logo{
+#rodape .rodape_int .logo {
   width: 264px;
   height: 74px;
   float: left;
@@ -202,13 +202,13 @@ body {
   display: flex;
   background: url('../../includes/imgs/logo_rodape.png') center no-repeat;
 }
-#rodape .rodape_int .informacoes{
-  width:100%;
-  float:left;
-  margin:0;
+#rodape .rodape_int .informacoes {
+  width: 100%;
+  float: left;
+  margin: 0;
   margin-top: 25px;
 }
-#rodape .rodape_int .informacoes li{
+#rodape .rodape_int .informacoes li {
   width: 100%;
   display: block;
   padding-left: 25px;
@@ -217,31 +217,75 @@ body {
   color: #fff;
   margin-bottom: 10px;
 }
-#rodape .rodape_int .informacoes li.end{
+#rodape .rodape_int .informacoes li.end {
   background: url('../../includes/imgs/infos.png') no-repeat -2px 0;
-	width: 100%;
-	height: 15px;
+  width: 100%;
+  height: 15px;
 }
-#rodape .rodape_int .informacoes li.tel{
+#rodape .rodape_int .informacoes li.tel {
   background: url('../../includes/imgs/infos.png') no-repeat 0 -27px;
   width: 100%;
   height: 15px;
 }
-#rodape .rodape_int .informacoes li.email{
+#rodape .rodape_int .informacoes li.email {
   background: url('../../includes/imgs/infos.png') no-repeat 0 -57px;
   width: 100%;
   height: 15px;
 }
-#rodape .rodape_int .informacoes li.site{
+#rodape .rodape_int .informacoes li.site {
   background: url('../../includes/imgs/infos.png') no-repeat 0 -81px;
   width: 100%;
   height: 15px;
 }
-#rodape .rodape_int.second .cont{
-  width: 68%;
+#rodape .rodape_int.second .cont {
+  width: 64%;
+  margin-top: 50px;
   float: right;
   height: auto;
-  background: red;
+}
+#rodape .cont .titulo {
+  width: 100%;
+  float: left;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+#rodape .cont .desc {
+  width: 100%;
+  float: left;
+  margin: 0;
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 14px;
+  color: #fff;
+}
+#rodape .cont .input-email{
+  width:100%;
+  float:left;
+  margin:0;
+  margin-top: 25px;
+  position: relative;
+}
+#rodape .cont .input-email input[type="email"]{
+  width:100%;
+  float:left;
+  margin:0;
+  background: #478174;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border:none;
+  padding: 15px;
+  color: #fff;
+  font-size: 13px;
+  padding-right: 105px;
+}
+#rodape .cont .input-email input[type="image"]{
+  position: absolute;
+  right: 0;
+}
+#rodape .cont .input-email input[type="image"]:hover{
+  opacity: .5;
 }
 /************************************************************
 slide home
