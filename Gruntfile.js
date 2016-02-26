@@ -22,8 +22,7 @@ module.exports = function(grunt) {
     watch: {
       scripts: {
         files: ['includes/css/*.css', 'includes/js/*.js', '*.php', 'template-site/*.php'],
-        tasks: ['default'],
-        options: { title: '"Watch"', message: '"Snipers on the roof, sir!"' }
+        tasks: ['default']
       },
     },
 
@@ -40,44 +39,7 @@ module.exports = function(grunt) {
       }
     },
 
-    /*cssnano: {
-      options: {
-        sourcemap: false
-      },
-      dist: {
-        files: {
-          'includes/css/style.min.css': 'includes/css/style_dev.css'
-        }
-      }
-    },
 
-    postcss: {
-      options: {
-        map: false,
-        processors: [
-          require('autoprefixer')({
-            browsers: ['last 2 versions']
-          })
-        ]
-      },
-      dist: {
-        src: 'includes/css/*.css'
-      }
-    },
-
-    autoprefixer: {
-      options: {
-        browsers: ['last 2 versions', 'ie 8', 'ie 9', '> 1%'],
-        title: 'Task Complete',  // optional
-        message: 'SASS and Uglify finished running', //required
-      },
-      main: {
-        expand: true,
-        flatten: true,
-        src: 'includes/css/*.css',
-        dest: 'includes/css'
-      }
-    },*/
   });
 
   // carrega plugins
@@ -85,9 +47,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
-  //grunt.loadNpmTasks('grunt-cssnano');
-  //grunt.loadNpmTasks('grunt-postcss');
-  //grunt.loadNpmTasks('grunt-autoprefixer');
 
   grunt.registerTask( 'default', [ 'cssmin', 'uglify', 'watch' ] );
 };

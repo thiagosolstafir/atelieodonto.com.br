@@ -58,65 +58,72 @@
 </div>
 
 <div id="conteudo">
-<div class="content_responsive">
+  <div class="content_responsive">
     <div class="estrutura_site">
-        <div class="conteudo">
-          <div class="box_home">
-            <div class="box_home_int">
-              <div class="titulo">
-                A CLÍNICA
-              </div>
-              <div class="img">
-                  <a href="#"><img src="includes/imgs/a-clinica.jpg" class="img-responsive" alt="" /></a>
-              </div>
-              <div class="desc">
-                Tecnologia de ponta, os melhores equipamentos e as técnicas mais avançadas de tratamento para atingir alta qualidade de resultados.
-              </div>
+      <div class="conteudo">
+        <div class="box_home">
+          <div class="box_home_int">
+            <div class="titulo">
+              A CLÍNICA
             </div>
-            <div class="box_home_int second">
-              <div class="titulo">
-                AGENDA
-              </div>
-              <div class="img">
-                  <a href="#"><img src="includes/imgs/agenda.jpg" class="img-responsive" alt="" /></a>
-              </div>
-              <div class="desc">
-                Mais praticidade para você! Consulte dia e horários que combinam com a sua disponibilidade.
-              </div>
+            <div class="img">
+              <a href="#"><img src="includes/imgs/a-clinica.jpg" class="img-responsive" alt="" /></a>
             </div>
-
-
-            <div class="equipe">
-              <div class="mulher">
-                <img src="includes/imgs/mulher.png" alt="" class-"img-responsive" />
-              </div>
-              <div class="desc_equipe">
-                <div class="titulo">
-                  EQUIPE DE PROFISSIONAIS
-                </div>
-                <div class="desc">
-                  Saiba mais sobre nossa clinica e sua equipe de profissionais qualificados em diversas especialidades para melhor atendê-lo.
-                </div>
-              </div>
-            </div>
-            <div class="banner-rodape">
-              <img src="includes/imgs/banner-home.jpg" class="img-responsive" alt="" />
-            </div>
+            <div class="desc">
+              Tecnologia de ponta, os melhores equipamentos e as técnicas mais avançadas de tratamento para atingir alta qualidade de resultados.
             </div>
           </div>
+          <div class="box_home_int second">
+            <div class="titulo">
+              AGENDA
+            </div>
+            <div class="img">
+              <a href="#"><img src="includes/imgs/agenda.jpg" class="img-responsive" alt="" /></a>
+            </div>
+            <div class="desc">
+              Mais praticidade para você! Consulte dia e horários que combinam com a sua disponibilidade.
+            </div>
+          </div>
+
+
+          <div class="equipe">
+            <div class="mulher">
+              <img src="includes/imgs/mulher.png" alt="" class-"img-responsive" />
+            </div>
+            <div class="desc_equipe">
+              <div class="titulo">
+                EQUIPE DE PROFISSIONAIS
+              </div>
+              <div class="desc">
+                Saiba mais sobre nossa clinica e sua equipe de profissionais qualificados em diversas especialidades para melhor atendê-lo.
+              </div>
+            </div>
+          </div>
+          <div class="banner-rodape">
+            <img src="includes/imgs/banner-home.jpg" class="img-responsive" alt="" />
+          </div>
         </div>
+      </div>
     </div>
+  </div>
 </div>
 <div id="rodape">
   <div class="content_responsive">
-      <div class="estrutura_site">
-          <div class="rodape_int first">
-            <div class="logo"></div>
-          </div>
-          <div class="rodape_int second">
+    <div class="estrutura_site">
+      <div class="rodape_int first">
+        <div class="logo"></div>
 
-          </div>
+        <div class="informacoes">
+          <li class="end">Rua Carlos Benack, 592 - Saguaçu - Joinville/SC</li>
+          <li class="tel">(47) 3472.2717</li>
+          <li class="email">contato@atelieodonto.com.br</li>
+        </div>
+
       </div>
+      <div class="rodape_int second">
+
+      </div>
+    </div>
   </div>
 </div>
 
