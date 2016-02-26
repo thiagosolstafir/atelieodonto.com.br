@@ -110,10 +110,10 @@
 <div id="rodape">
   <div class="content_responsive">
       <div class="estrutura_site">
-          <div class="rodape_int">
-            
+          <div class="rodape_int first">
+            <div class="logo"></div>
           </div>
-          <div class="rodape_int">
+          <div class="rodape_int second">
 
           </div>
       </div>
