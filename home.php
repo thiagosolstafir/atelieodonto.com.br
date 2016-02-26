@@ -108,7 +108,16 @@
     </div>
 </div>
 <div id="rodape">
-  
+  <div class="content_responsive">
+      <div class="estrutura_site">
+          <div class="rodape_int">
+            
+          </div>
+          <div class="rodape_int">
+
+          </div>
+      </div>
+  </div>
 </div>
 
 
