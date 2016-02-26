@@ -31,7 +31,14 @@
 
     <li>
       <div class="titulo_slider">
-        teste
+        A clínica
+      </div>
+      <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
+    </li>
+
+    <li>
+      <div class="titulo_slider">
+        Teste
       </div>
       <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
     </li>
