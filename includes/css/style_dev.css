@@ -354,6 +354,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.clinica .texto_b{
+  width: 100%;
+  float: left;
+  text-align: left;
+}
 .clinica .clinica_int{
   width: calc(100% / 2);
   float: left;
@@ -382,7 +387,7 @@ body {
   float:left;
   margin:0;
   padding: 15px;
-  height: 315px;
+  height: auto;
   background: #f7fffa;
 }
 .fotos_cli .titulo{
@@ -397,7 +402,7 @@ body {
   width: calc((100% / 3) - 15px);
   float: left;
   margin-right: 22px;
-  height: 200px;
+  height: auto;
 }
 .fotos_cli .foto_cli_int img{
   width: 100%;
@@ -479,6 +484,16 @@ body {
 #exibe_pro .desc_medico .desc{
   font-size: 15px;
   line-height: 22px;
+}
+
+.agenda_int{
+  width:100%;
+  float:left;
+  margin:0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /************************************************************
 slide home
