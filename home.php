@@ -1,72 +1,6 @@
 <?php include "template-site/header.php"; ?>
 <?php include "template-site/topo.php"; ?>
 
-<div id="topo">
-  <div class="content_responsive">
-    <div class="estrutura_site">
-      <div class="logo">
-        <a href="#"></a>
-      </div>
-      <div class="menu">
-        <ul>
-          <li><a href="#">CLINICA</a></li>
-          <li><a href="#">ESPECIALIDADES</a></li>
-          <li><a href="#">TRATAMENTOS</a></li>
-          <li><a href="#">CONVÊNIOS</a></li>
-          <li><a href="#">AGENDA</a></li>
-          <li><a href="#">INFORMATIVOS</a></li>
-          <li><a href="#">CONTATO</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="destaque">
-  <div id="area_slider_intro">
-    <div id="slider_intro" class="slideshow"
-    data-cycle-swipe=true
-    data-cycle-pager="#pager_slider div"
-    data-cycle-slides="> li"
-    data-cycle-timeout=0
-    >
-
-    <li>
-      <div class="box_conteudo_slider">
-        <div class="titulo_slider">
-          A clínica
-        </div>
-        <div class="subtitulo_slider">
-          Oferecemos reabilitação oral em todos os níveis de complexidade.
-
-          <span>Uma equipe de dentistas pós-graduados e especializados com
-          equipamentos de última geração.</span>
-        </div>
-      </div>
-
-      <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
-    </li>
-
-    <li>
-      <div class="box_conteudo_slider">
-        <div class="titulo_slider">
-          A clínica
-        </div>
-        <div class="subtitulo_slider">
-          Oferecemos reabilitação oral em todos os níveis de complexidade.
-
-          <span>Uma equipe de dentistas pós-graduados e especializados com
-          equipamentos de última geração.</span>
-        </div>
-      </div>
-
-      <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
-    </li>
-  </div>
-  <div id="pager_slider">
-    <div></div>
-  </div>
-</div>
-</div>
 
 <div id="conteudo">
   <div class="content_responsive">
@@ -110,52 +44,6 @@
           <div class="banner-rodape">
             <img src="includes/imgs/banner-home.jpg" class="img-responsive" alt="" />
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="rodape">
-  <div class="content_responsive">
-    <div class="estrutura_site">
-      <div class="rodape_int first">
-        <div class="logo"></div>
-
-        <div class="informacoes">
-          <li class="end">Rua Carlos Benack, 592 - Saguaçu - Joinville/SC</li>
-          <li class="tel">(47) 3472.2717</li>
-          <li class="email">contato@atelieodonto.com.br</li>
-          <li class="site">www.atelieodonto.com.br</li>
-        </div>
-
-      </div>
-      <div class="rodape_int second">
-        <div class="cont">
-          <div class="titulo">
-            RECEBA NOSSAS NOTÍCIAS
-          </div>
-          <div class="desc">
-            Digite seu e-mail e vamos enviar-lhe um cupom com 10% de desconto em sua próxima visita.
-          </div>
-
-          <form action="" method="post">
-            <div class="input-email">
-              <input type="email" name="name" value="" required="true">
-              <input type="image" src="includes/imgs/btn-enviar.png" name="name" value="">
-            </div>
-          </form>
-
-
-          <div class="rede-social">
-            <span>
-              <a href="#" class="facebook"></a>
-              <a href="#" class="twitter"></a>
-              <a href="#" class="plus"></a>
-              <a href="#" class="youtube"></a>
-              <a href="#" class="linkedin"></a>
-            </span>
-          </div>
-
         </div>
       </div>
     </div>

@@ -27,3 +27,72 @@
 
 </div>
 <div id="mask_menu"></div>
+
+
+
+<div id="topo">
+  <div class="content_responsive">
+    <div class="estrutura_site">
+      <div class="logo">
+        <a href="#"></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">CLINICA</a></li>
+          <li><a href="#">ESPECIALIDADES</a></li>
+          <li><a href="#">TRATAMENTOS</a></li>
+          <li><a href="#">CONVÊNIOS</a></li>
+          <li><a href="#">AGENDA</a></li>
+          <li><a href="#">INFORMATIVOS</a></li>
+          <li><a href="#">CONTATO</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="destaque">
+  <div id="area_slider_intro">
+    <div id="slider_intro" class="slideshow"
+    data-cycle-swipe=true
+    data-cycle-pager="#pager_slider div"
+    data-cycle-slides="> li"
+    data-cycle-timeout=0
+    >
+
+    <li>
+      <div class="box_conteudo_slider">
+        <div class="titulo_slider">
+          A clínica
+        </div>
+        <div class="subtitulo_slider">
+          Oferecemos reabilitação oral em todos os níveis de complexidade.
+
+          <span>Uma equipe de dentistas pós-graduados e especializados com
+          equipamentos de última geração.</span>
+        </div>
+      </div>
+
+      <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
+    </li>
+
+    <li>
+      <div class="box_conteudo_slider">
+        <div class="titulo_slider">
+          A clínica
+        </div>
+        <div class="subtitulo_slider">
+          Oferecemos reabilitação oral em todos os níveis de complexidade.
+
+          <span>Uma equipe de dentistas pós-graduados e especializados com
+          equipamentos de última geração.</span>
+        </div>
+      </div>
+
+      <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
+    </li>
+  </div>
+  <div id="pager_slider">
+    <div></div>
+  </div>
+</div>
+</div>
