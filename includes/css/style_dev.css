@@ -30,6 +30,8 @@ body {
   float: left;
   margin: 0px;
   height: 144px;
+  padding-left: 15px;
+  padding-right: 15px;
   background: url('../../includes/imgs/fundo_topo.png') center no-repeat;
 }
 #topo .logo {
@@ -369,20 +371,23 @@ slide home
 #area_slider_intro li .titulo_slider {
   width: 600px;
   float: left;
-  font-size: 50px;
+  font-size: 68px;
   color: #fff;
   opacity: .7;
 }
 #area_slider_intro li .subtitulo_slider {
   width: 600px;
   float: left;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
   color: #fff;
   line-height: 20px;
   white-space: pre-line;
   opacity: .7;
   clear: both;
+}
+#area_slider_intro li .subtitulo_slider span{
+  font-weight: bold;
 }
 #area_slider_intro {
   width: 100%;
@@ -395,9 +400,6 @@ slide home
   background: #000;
   overflow: hidden;
   -webkit-transform: scale(1);
-  /* prefixo para browsers webkit */
-  /* prefixo para browsers gecko */
-  /* prefixo para opera */
   -ms-transform: scale(1);
   transform: scale(1);
 }

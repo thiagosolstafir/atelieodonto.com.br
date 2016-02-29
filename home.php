@@ -1,4 +1,5 @@
 <?php include "template-site/header.php"; ?>
+<?php include "template-site/topo.php"; ?>
 
 <div id="topo">
   <div class="content_responsive">
@@ -37,8 +38,8 @@
         <div class="subtitulo_slider">
           Oferecemos reabilitação oral em todos os níveis de complexidade.
 
-          Uma equipe de dentistas pós-graduados e especializados com
-          equipamentos de última geração.
+          <span>Uma equipe de dentistas pós-graduados e especializados com
+          equipamentos de última geração.</span>
         </div>
       </div>
 
@@ -46,14 +47,24 @@
     </li>
 
     <li>
-      <div class="titulo_slider">
-        Teste
+      <div class="box_conteudo_slider">
+        <div class="titulo_slider">
+          A clínica
+        </div>
+        <div class="subtitulo_slider">
+          Oferecemos reabilitação oral em todos os níveis de complexidade.
+
+          <span>Uma equipe de dentistas pós-graduados e especializados com
+          equipamentos de última geração.</span>
+        </div>
       </div>
+
       <a style="background:url('includes/imgs/slider1.jpg') no-repeat center center;"></a>
     </li>
-
   </div>
-
+  <div id="pager_slider">
+    <div></div>
+  </div>
 </div>
 </div>
 
