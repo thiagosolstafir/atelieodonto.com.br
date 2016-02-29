@@ -398,7 +398,6 @@ body {
   float: left;
   margin-right: 22px;
   height: 200px;
-  background: red;
 }
 .fotos_cli .foto_cli_int img{
   width: 100%;
@@ -453,10 +452,33 @@ body {
   opacity: 1;
 }
 .profissionais #exibe_pro{
-  width: 572px;
+  width: 615px;
   float: right;
   height: auto;
-  background: red;
+}
+#exibe_pro .me{
+  width: 100%;
+  float: left;
+}
+#exibe_pro .img{
+  margin-top: -23px;
+  float: left;
+}
+#exibe_pro .desc_medico{
+  width: 344px;
+  float: left;
+}
+#exibe_pro .desc_medico .titulo{
+  width: 100%;
+  float: left;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size:24px;
+  color: #6f7072;
+  margin-bottom: 10px;
+}
+#exibe_pro .desc_medico .desc{
+  font-size: 15px;
+  line-height: 22px;
 }
 /************************************************************
 slide home

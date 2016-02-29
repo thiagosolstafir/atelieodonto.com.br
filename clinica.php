@@ -78,11 +78,31 @@
             <a data-area="6" ><img src="includes/imgs/pro1.jpg" alt="" /></a>
           </div>
           <div id="exibe_pro">
-            <div id="area_1" class="remove show">
-              um teste
+            <div id="area_1" class="remove show me">
+              <div class="img">
+                <img src="includes/imgs/medico1.jpg" alt="" />
+              </div>
+              <div class="desc_medico">
+                <div class="titulo">
+                  DR. ROBERTO STELTER
+                </div>
+                <div class="desc">
+                  IMPLANTODONTISTA - CRO-SC 5335 - Formado pela Pontifícia Universidade Católica do Paraná em 1999, é especialista e pós graduado em Implantodontia e possui pós graduado em Cirurgia Bucal. Realiza tratamentos de reabilitação estética com próteses em cerâmica e estética dental.
+                </div>
+              </div>
             </div>
-            <div id="area_2" class="remove">
-              outro teste
+            <div id="area_2" class="remove me">
+              <div class="img">
+                <img src="includes/imgs/medico1.jpg" alt="" />
+              </div>
+              <div class="desc_medico">
+                <div class="titulo">
+                  DR. THIAGO FERNANDES
+                </div>
+                <div class="desc">
+                  IMPLANTODONTISTA - CRO-SC 5335 - Formado pela Pontifícia Universidade Católica do Paraná em 1999, é especialista e pós graduado em Implantodontia e possui pós graduado em Cirurgia Bucal. Realiza tratamentos de reabilitação estética com próteses em cerâmica e estética dental.
+                </div>
+              </div>
             </div>
           </div>
         </div>
