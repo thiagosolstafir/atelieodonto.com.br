@@ -3,6 +3,7 @@
 body {
   overflow-x: hidden;
   outline: none;
+  outline: none!important;
 }
 * {
   /*  -moz-transition: all 200ms ease-in-out;
@@ -10,7 +11,10 @@ body {
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
   -webkit-tap-highlight-color: transparent;*/
-  outline: none;
+  outline: none!important;
+}
+input{
+  outline: none!important;
 }
 .sem-animacao {
   -webkit-transition: all 0 ease-in-out;
