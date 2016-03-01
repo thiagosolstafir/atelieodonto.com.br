@@ -8,29 +8,34 @@
     padding-right: 15px;
   }
 }
+@media only screen and (max-width: 1170px) {
+  .convenios .box_convenios .box_int {
+    width: calc((100% / 5) - 15px);
+  }
+}
 @media only screen and (max-width: 1148px) {
   #exibe_pro .img {
     display: none;
   }
-  .profissionais .titulo{
+  .profissionais .titulo {
     text-align: center;
   }
-  .profissionais .fotos_pro{
+  .profissionais .fotos_pro {
     float: none;
     margin: 0 auto;
   }
-  #exibe_pro .desc_medico .titulo{
+  #exibe_pro .desc_medico .titulo {
     width: 100%;
     padding: 0;
     margin: 0 auto;
   }
-  .profissionais #exibe_pro{
+  .profissionais #exibe_pro {
     width: 100%;
     float: left;
     height: auto;
     text-align: center;
   }
-  #exibe_pro .desc_medico{
+  #exibe_pro .desc_medico {
     width: 50%;
     margin: 0 auto;
     float: none;
@@ -50,6 +55,25 @@
   }
   #header_mobile, #bt_menu {
     display: block!important;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .informativos .box_info_int{
+    text-align: center;
+  }
+  .informativos .box_info_int .titulo, .informativos .box_info_int .data{
+    width: 100%;
+  }
+  .informativos .box_info_int{
+    margin-bottom: 30px;
+  }
+  .informativos .box_info_int img{
+    float:none;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .informativos .titulo{
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1064px) {
@@ -79,6 +103,40 @@
   #destaque {
     display: none;
   }
+
+  .leia_especialidade .leia_texto .leia_int{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .leia_especialidade{
+    padding-left:0;
+    padding-right: 0;
+  }
+  .leia_especialidade .breadcrumbs, .leia_especialidade .breadcrumbs a{
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .leia_especialidade .leia_texto .leia_int a.voltar{
+    margin:0 auto;
+    margin-top: 20px;
+  }
+
+}
+@media only screen and (max-width: 935px) {
+  .convenios .box_convenios .box_int {
+    width: calc((100% / 3) - 15px);
+  }
+  .convenios .titulo {
+    text-align: center;
+  }
+  .convenios .texto {
+    text-align: center;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 894px) {
   #rodape {
@@ -91,9 +149,12 @@
     display: none;
   }
   #rodape .rodape_int .informacoes {
-    width: 70%;
+    width: 100%;
     float: none;
     margin: 0 auto;
+  }
+  #rodape .rodape_int.first {
+    padding-left: 0;
   }
   #rodape .rodape_int .informacoes li {
     text-align: center;
@@ -109,6 +170,25 @@
   }
   #rodape .cont .rede-social {
     margin-top: 35px;
+  }
+  #rodape .rodape_int .informacoes li {
+    padding-left: 0;
+  }
+  .especialidades .titulo, .espec_int .titulo_esp, .espec_int a{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .espec_int .texto_esp{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .espec_int a{
+
+  }
+  .especialidades .box_especialidades .espec_int{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -133,31 +213,73 @@
   .clinica .clinica_int.second .texto {
     padding: 0;
   }
-  .clinica .clinica_int .titulo, .fotos_cli .titulo, .clinica .clinica_int .texto, .clinica .texto_b{
+  .clinica .clinica_int .titulo, .fotos_cli .titulo, .clinica .clinica_int .texto, .clinica .texto_b {
     text-align: center;
   }
-  .fotos_cli .foto_cli_int{
+  .fotos_cli .foto_cli_int {
     width: 100%;
     margin-bottom: 20px;
   }
-  .fotos_cli .foto_cli_int:last-child{
+  .fotos_cli .foto_cli_int:last-child {
     margin-bottom: 0;
   }
-  #exibe_pro .desc_medico{
+  #exibe_pro .desc_medico {
     width: 100%!important;
+  }
+  .agenda_int .form {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .cmp-select .label-dentista {
+    display: none;
+  }
+  .cmp-select .formulario_select {
+    width: 100%;
+  }
+  .cmp-select {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .agenda_int {
+    padding: 0;
+    margin-top: 20px;
+    padding-bottom: 40px;
+  }
+  .agenda_int .texto {
+    width: 100%;
+    float: left;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #rodape .cont .input-email input[type="email"] {
+    padding-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .convenios .box_convenios{
+    padding-left: 15px;
+  }
+  .convenios .box_convenios .box_int {
+    width: calc((100% / 2) - 15px);
+  }
+  .convenios {
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 @media only screen and (max-width: 520px) {
-  .profissionais .fotos_pro{
+  .profissionais .fotos_pro {
     width: 100%;
-    float:left;
+    float: left;
   }
-  .profissionais .fotos_pro a{
+  .profissionais .fotos_pro a {
     width: calc((100% / 2) - 15px);
     float: left;
     position: relative;
   }
-  .profissionais .fotos_pro a img{
+  .profissionais .fotos_pro a img {
     width: auto;
     height: auto;
   }
@@ -179,15 +301,21 @@
   #rodape .rodape_int.first {
     padding: 0;
   }
+  .convenios .box_convenios{
+    padding-left: 0;
+  }
   #rodape .rodape_int .informacoes {
     width: 100%;
   }
   #rodape .rodape_int.second .cont {
     width: 100%;
   }
+  .convenios .box_convenios .box_int {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 390px) {
-  .profissionais .fotos_pro a{
+  .profissionais .fotos_pro a {
     width: 100%;
     float: left;
     text-align: center;

@@ -363,12 +363,12 @@ PAGER CYCLE2
   font-weight: bold;
 }
 ::-webkit-input-placeholder {
-  color: #544135;
+  color: #000;
   font-size: 14px;
   padding-top: 4px;
 }
 :-moz-placeholder {
-  color: #544135;
+  color: #000;
   font-size: 14px;
   padding-top: 4px;
 }

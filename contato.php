@@ -14,27 +14,11 @@
           <input type="email" name="email" value="" placeholder="E-MAIL">
           <input type="text" name="telefone" value="" placeholder="TELEFONE">
           <input type="text" name="endereco" value="" placeholder="ENDEREÇO">
-          <div class="data">
-            <div class="form-group">
-              <div class='input-group date' id='datetimepicker1'>
-                <input type='text' id="data" placeholder="DATA DESEJADA"/>
-              </div>
-            </div>
+          <textarea name="mensagem" rows="8" cols="40" placeholder="MENSAGEM"></textarea>
+          <div class="mens">
+            TRABALHE CONOSCO<br />
+            Envie seu currículo para: contato@atelieodonto.com.br
           </div>
-          <input type="text" name="name" id="hora" placeholder="HORÁRIO DESEJADO">
-          <div class="cmp-select">
-            <div class="label-dentista">
-              SEU DENTISTA
-            </div>
-            <div class="formulario_select">
-              <span><strong>SELECIONE</strong></span>
-              <select id="estado" name="estado" required="true" aria-required="true">
-                <option value="">SELECIONE</option>
-                <option value="DR. ROBERTO STELTER">DR. ROBERTO STELTER</option>
-              </select>
-            </div>
-          </div>
-
           <div class="btn_enviar">
             <input type="submit" name="name" value="ENVIAR">
           </div>

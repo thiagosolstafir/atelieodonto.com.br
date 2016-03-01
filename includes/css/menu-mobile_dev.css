@@ -9,7 +9,7 @@
     position: relative;
     -webkit-tap-highlight-color: transparent;
     -webkit-transition: all 200ms ease-in-out;
-            transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 #bt_menu span {
@@ -21,7 +21,7 @@
     height: 0.8em;
     position: absolute;
     -webkit-transition: all 200ms ease-in-out;
-            transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -44,8 +44,8 @@
 
 #bt_menu.open span:nth-child(1) {
     -webkit-transform: rotate(40deg) translate(1.1em, 1.1em);
-        -ms-transform: rotate(40deg) translate(1.1em, 1.1em);
-        transform: rotate(40deg) translate(1.1em, 1.1em);
+    -ms-transform: rotate(40deg) translate(1.1em, 1.1em);
+    transform: rotate(40deg) translate(1.1em, 1.1em);
     background: #fff;
     top: 10px;
     left: -1px;
@@ -54,13 +54,13 @@
 #bt_menu.open span:nth-child(2) {
     opacity: 0;
     -webkit-transition: none;
-            transition: none;
+    transition: none;
 }
 
 #bt_menu.open span:nth-child(3) {
     -webkit-transform: rotate(-40deg) translate(1.1em, -1.1em);
-        -ms-transform: rotate(-40deg) translate(1.1em, -1.1em);
-        transform: rotate(-40deg) translate(1.1em, -1.1em);
+    -ms-transform: rotate(-40deg) translate(1.1em, -1.1em);
+    transform: rotate(-40deg) translate(1.1em, -1.1em);
     background: #fff;
     top: 19px;
     left: -1px;
@@ -101,7 +101,7 @@
     left: 0;
     position: absolute;
     border: none;
-    background: #F7D622;
+    background: #139D73;
     overflow-y: none;
 }
 
@@ -136,12 +136,10 @@
     width: 100%;
     float: left;
     margin: 0;
-    color: #FFF;
+    color: #fff;
     text-align: left;
     border-bottom: 0;
     font-size: 14px;
-    font-weight: bold;
-    color: #111111;
     cursor: pointer;
     padding: 10px;
     display: block;
@@ -152,7 +150,6 @@
 #menu_mobile ul li a:focus,
 #menu_mobile ul li a:active {
     color: #fff;
-    background: #C5AF84;
     text-decoration: none;
 }
 
@@ -209,7 +206,7 @@
     top: 0!important;
     position: fixed;
     z-index: 9999999;
-    background: #F7D622;
+    background: #139D73;
     display: none;
 }
 

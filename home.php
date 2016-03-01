@@ -12,7 +12,7 @@
               A CLÍNICA
             </div>
             <div class="img">
-              <a href="#"><img src="includes/imgs/a-clinica.jpg" class="img-responsive" alt="" /></a>
+              <a href="clinica"><img src="includes/imgs/a-clinica.jpg" class="img-responsive" alt="" /></a>
             </div>
             <div class="desc">
               Tecnologia de ponta, os melhores equipamentos e as técnicas mais avançadas de tratamento para atingir alta qualidade de resultados.
@@ -23,7 +23,7 @@
               AGENDA
             </div>
             <div class="img">
-              <a href="#"><img src="includes/imgs/agenda.jpg" class="img-responsive" alt="" /></a>
+              <a href="agenda"><img src="includes/imgs/agenda.jpg" class="img-responsive" alt="" /></a>
             </div>
             <div class="desc">
               Mais praticidade para você! Consulte dia e horários que combinam com a sua disponibilidade.
