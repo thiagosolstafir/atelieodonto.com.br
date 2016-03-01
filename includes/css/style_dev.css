@@ -80,7 +80,7 @@ body {
   width: 100%;
   float: left;
   margin: 0;
-  margin-top: -15px;
+  margin-top: -30px;
   position: relative;
   z-index: -1;
 }
@@ -89,6 +89,7 @@ body {
   float: left;
   margin: 0;
   height: auto
+  padding-bottom:20px;
 }
 .conteudo .box_home {
   width: 100%;
@@ -96,6 +97,7 @@ body {
   margin: 0;
   height: auto;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 .conteudo .box_home .box_home_int {
   width: calc((100% / 2) - 22px);
@@ -186,7 +188,6 @@ body {
   float: left;
   margin: 0;
   height: 340px;
-  margin-top: 20px;
   background: #139D73;
 }
 #rodape .rodape_int {
@@ -486,6 +487,9 @@ body {
   line-height: 22px;
 }
 
+.agenda{
+  background: #ecfff3;
+}
 .agenda_int{
   width:100%;
   float:left;
@@ -494,6 +498,31 @@ body {
   padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.agenda_int .texto{
+  text-align: center;
+}
+.agenda_int .form{
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 400px;
+}
+.agenda_int .form input[type="text"], .agenda_int .form input[type="email"]{
+  border: 1px solid #e7ebe8;
+  width: 100%!important;
+  float: left;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.agenda_int .data{
+  width: 100%;
+  float:left;
+}
+.input-group{
+  width: 100%;
 }
 /************************************************************
 slide home

@@ -11,7 +11,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
 
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/helper_dev.css?<?php echo time(); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo $mainFolder; ?>/includes/css/style_dev.css?<?php echo time(); ?>">
@@ -36,6 +36,12 @@
   <![endif]-->
 
   <script src="<?php echo $mainFolder; ?>/includes/js/scripts_dev.js?<?php echo time(); ?>" type="text/javascript"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  <script type="text/javascript" src="<?php echo $mainFolder; ?>/bower_components/moment/min/moment.min.js"></script>
+
+  <script type="text/javascript" src="<?php echo $mainFolder; ?>/bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+  <link rel="stylesheet" href="<?php echo $mainFolder; ?>/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
 
 
   <script> $.fn.cycle.defaults.autoSelector = '.slideshow'; </script>
